@@ -1,0 +1,15 @@
+{"ime": "Iva", "prezime": "Ivić", "iznos": 4, "order" = 0}
+{"ime": "Ana", "prezime": "Horvat", "iznos": 7, "order" = 0}
+{"ime": "Marko", "prezime": "Marić", "iznos": 10, "order" = 0}
+{"ime": "Iva", "prezime": "Ivić", "iznos": 6, "order" = 1}
+{"ime": "Ana", "prezime": "Horvat", "iznos": 5, "order" = 1}
+{"ime": "Marko", "prezime": "Marić", "iznos": 12, "order" = 1}
+{"ime": "Luka", "prezime": "Kovač", "iznos": 8, "order" = 0}
+{"ime": "Petra", "prezime": "Novak", "iznos": 11, "order" = 0}
+{"ime": "Luka", "prezime": "Kovač", "iznos": 9, "order" = 1}
+{"ime": "Petra", "prezime": "Novak", "iznos": 13, "order" = 1}
+{"ime": "Iva", "prezime": "Ivić", "iznos": 15, "order" = 2}
+{"ime": "Ana", "prezime": "Horvat", "iznos": 3, "order" = 2}
+{"ime": "Marko", "prezime": "Marić", "iznos": 7, "order" = 2}
+{"ime": "Luka", "prezime": "Kovač", "iznos": 10, "order" = 2}
+{"ime": "Petra", "prezime": "Novak", "iznos": 6, "order" = 2}

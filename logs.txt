@@ -1,0 +1,6 @@
+2026-04-23T13:55:58.194Z  INFO 128145 --- [myapp] [           main] o.s.b.d.f.logexample.MyApplication       : Starting MyApplication using Java 25.0.3 with PID 128145 (/opt/apps/myapp.jar started by myuser in /opt/apps/)
+2026-04-23T13:55:58.194Z  INFO 128145 --- [myapp] [           main] o.s.b.d.f.logexample.MyApplication       : Starting MyApplication using Java 25.0.3 with PID 128145 (/opt/apps/myapp.jar started by myuser in /opt/apps/)
+2026-04-23T13:55:58.194Z  INFO 128145 --- [myapp] [           main] o.s.b.d.f.logexample.MyApplication       : Starting MyApplication using Java 25.0.3 with PID 128145 (/opt/apps/myapp.jar started by myuser in /opt/apps/)
+2026-04-23T13:55:58.194Z  INFO 128145 --- [myapp] [           main] o.s.b.d.f.logexample.MyApplication       : Starting MyApplication using Java 25.0.3 with PID 128145 (/opt/apps/myapp.jar started by myuser in /opt/apps/)
+2026-04-23T13:55:58.194Z  INFO 128145 --- [myapp] [           main] o.s.b.d.f.logexample.MyApplication       : Starting MyApplication using Java 25.0.3 with PID 128145 (/opt/apps/myapp.jar started by myuser in /opt/apps/)
+2026-04-23T13:55:58.194Z  INFO 128145 --- [myapp] [           main] o.s.b.d.f.logexample.MyApplication       : Starting MyApplication using Java 25.0.3 with PID 128145 (/opt/apps/myapp.jar started by myuser in /opt/apps/)
