@@ -159,12 +159,15 @@ bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic mytopic
 ```sh
 # Citanje s particije
 docker exec --workdir //opt/kafka -it kafka sh \
-  bin/kafka-console-consumer.sh \
-  --bootstrap-server localhost:9092 \
-  --topic mytopic \
-  --partition 0 \
-  --from-beginning
-  #--osffset 5
+bin/kafka-console-consumer.sh \
+--bootstrap-server localhost:9092 \
+--topic mytopic \
+--partition 0 \
+--offset "5" # inicijalno procita sve offsete od 5 do kraja
+
+# Kafka ne generira grupu za takvog consumera:
+docker exec --workdir //opt/kafka -it kafka sh \
+bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --list
 ```
 
 ```bash
@@ -337,9 +340,9 @@ bin/kafka-topics.sh --bootstrap-server localhost:9092 --create \
 ```
 
 ```sh
-# event 3:{ "customerId": "123", "product": "Laptop", "amount": 300 }
-# event 3:{ "customerId": "123", "product": "Laptop", "amount": 400 }
-# event 3:{ "customerId": "123", "product": "Laptop", "amount": 100 }
+# event 123:{ "customerId": "123", "product": "Laptop", "amount": 300 }
+# event 123:{ "customerId": "123", "product": "Laptop", "amount": 400 }
+# event 123:{ "customerId": "123", "product": "Laptop", "amount": 100 }
 # produceri
 
 docker exec --workdir //opt/kafka -it kafka \
